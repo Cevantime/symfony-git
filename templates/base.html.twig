@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="{{ path('app_register') }}">S'inscrire</a></li>
+            </ul>
+        </header>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
