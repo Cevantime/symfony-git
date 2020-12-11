@@ -1,10 +1,12 @@
 # Symfony 5.2 starter guide !
 
+Attention à bien avoir PHP d'installé (Wamp, Xamp ou Lamp)
+
 Pour démarrer Symfony 5.2 :
 
 > symfony server:start
 
-Pour composer :
+Pour installer composer :
 
 > composer require orm
 
